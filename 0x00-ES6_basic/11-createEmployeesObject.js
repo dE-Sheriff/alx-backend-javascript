@@ -1,9 +1,9 @@
 #!/usr/bin/node
 
 export default function createEmployeesObject(departmentName, employees) {
-	const data = {
-		[`${departmentName}`]: employees,
-	};
+  const data = {
+    [`${departmentName}`]: employees,
+  };
 
-	return data;
+  return data;
 }
