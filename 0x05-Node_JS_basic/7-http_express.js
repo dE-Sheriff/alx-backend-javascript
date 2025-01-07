@@ -38,7 +38,6 @@ function countStudents(filename) {
           }
         });
         output.push(`Number of students: ${numStudents}`);
-        // eslint-disable-next-line guard-for-in
         for (const key in fields) {
           output.push(`Number of students in ${key}: ${fields[key]}. List: ${firstNames[key].join(', ')}`);
         }
